@@ -9,7 +9,7 @@ class Bouncing_Ball
     while h >= window
       counter += 1
       h *= bounce
-      counter += 1 if h >= window
+      counter += 1 if h > window
     end
     counter
   end

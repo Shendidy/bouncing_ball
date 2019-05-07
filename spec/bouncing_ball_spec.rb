@@ -29,4 +29,12 @@ describe Bouncing_Ball do
     expect(subject.bouncing_ball(-5, 0.66, 1.5)).to eq(-1)
   end
 
+  it '8- should return -1' do
+    expect(subject.bouncing_ball(3, 0.66, 3)).to eq(-1)
+  end
+
+  it '9- should return 2' do
+    expect(subject.bouncing_ball(6, 0.5, 3)).to eq(2)
+  end
+
 end
